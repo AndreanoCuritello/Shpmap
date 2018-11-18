@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/map_lay_1"
+        android:showAsAction="ifRoom|withText"
+        android:title="битмэп"
+        android:visible="true"/>
+    <item
+        android:id="@+id/map_lay_2"
+        android:showAsAction="ifRoom|withText"
+        android:title="лакэйшн"
+        android:visible="true"/>
+    <item
+        android:id="@+id/map_lay_3"
+        android:showAsAction="ifRoom|withText"
+        android:title="мэплэйер"
+        android:visible="true"/>
+    <item
+        android:id="@+id/map_lay_4"
+        android:showAsAction="ifRoom|withText"
+        android:title="марклэйер"
+        android:visible="true"/>
+    <item
+        android:id="@+id/map_lay_5"
+        android:showAsAction="ifRoom|withText"
+        android:title="роутелэйер"
+        android:visible="true"/>
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >Shopmap</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="title_activity_list" translatable="false">Списки</string>
+    <string name="title_activity_map" translatable="false">Магазины</string>
+    <string name="horizontal" translatable="false">horizontal</string>
+    <string name="list_manager_menu_rename" translatable="false">переименовать</string>
+    <string name="list_manager_menu_delete" translatable="false">удалить</string>
+    <string name="default_map_text"></string>
+    <string name="loading_text">Loading...</string>
+        <!-- MapView proj -->
+ <array name="maplayer_name">
+        <item>MapLayerTest</item>
+        <item>BitmapLayerTest</item>
+        <item>LocationLayerTest</item>
+        <item>MarkLayerTest</item>
+        <item>RouteLayerTest</item>
+    </array>
+      <string name="leak_canary_class_has_leaked">%1$s leaked %2$s</string>
+  <string name="leak_canary_leak_excluded">[Excluded] %1$s leaked %2$s</string>
+  <string name="leak_canary_analysis_failed">Leak analysis failed</string>
+  <string name="leak_canary_leak_list_title">Leaks in %s</string>
+  <string name="leak_canary_notification_message">Click for more details</string>
+  <string name="leak_canary_share_leak">Share info</string>
+  <string name="leak_canary_share_heap_dump">Share heap dump</string>
+  <string name="leak_canary_share_with">Share with…</string>
+  <string name="leak_canary_display_activity_label">Leaks</string>
+  <string name="leak_canary_storage_permission_activity_label">Storage permission</string>
+  <string name="leak_canary_toast_heap_dump">Dumping memory, app will freeze. Brrrr.</string>
+  <string name="leak_canary_delete">Delete</string>
+  <string name="leak_canary_failure_report">"Please report this failure to http://github.com/square/leakcanary\n"</string>
+  <string name="leak_canary_delete_all">Delete all</string>
+  <string name="leak_canary_could_not_save_title">Could not save result.</string>
+  <string name="leak_canary_could_not_save_text">LeakCanary was unable to save the analysis result.</string>
+  <string name="leak_canary_no_leak_title">No leak found</string>
+  <string name="leak_canary_no_leak_text">The GC was being lazy.</string>
+  <string name="leak_canary_excluded_row">[Excluded] %s</string>
+  <string name="leak_canary_permission_not_granted">Please grant external storage permission, otherwise memory leaks will not be detected.</string>
+  <string name="leak_canary_permission_notification_title">Leak detected, need permission</string>
+  <string name="leak_canary_permission_notification_text">Click to enable storage permission for %s.</string>
+</resources>

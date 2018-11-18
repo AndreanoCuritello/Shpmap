@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+        android:id="@+id/sort_name"
+        android:showAsAction="ifRoom|withText"
+        android:title="название"
+        android:visible="true"/>
+    <item
+        android:id="@+id/sort_taken_first"
+        android:showAsAction="ifRoom|withText"
+        android:title="сначала найденное"
+        android:visible="true"/>
+    <item
+        android:id="@+id/sort_taken_last"
+        android:showAsAction="ifRoom|withText"
+        android:title="сначала ненайденное"
+        android:visible="true"/>
+</menu>

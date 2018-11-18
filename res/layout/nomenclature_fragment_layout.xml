@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11" >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:background="@color/tabs_color">
+    <Button
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/returnButton" 
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="start|center"
+        android:background="@drawable/top_menu_back_selector"/>
+       </LinearLayout>
+ <EditText android:id="@+id/inputSearch"
+        android:layout_width="fill_parent"
+    android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="поиск.."
+        android:inputType="textVisiblePassword"
+        android:drawableRight="@drawable/search"/>
+<ListView
+    android:id="@+id/nomenclatureView"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="9"/>
+</LinearLayout>
+

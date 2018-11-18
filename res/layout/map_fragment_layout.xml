@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="11" >
+ <LinearLayout android:id="@+id/map_container" 
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true" 
+        android:orientation="horizontal">
+   </LinearLayout>      
+ <FrameLayout
+    android:background="@color/tabs_color"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:isScrollContainer="true">
+      <Button
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/menu_button_selector"
+        android:id="@+id/OptionsButton"
+        android:layout_gravity="start|center_vertical"/>
+      <Button
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/add_button_selector"
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/CreateListButton"/>
+      </FrameLayout>
+</LinearLayout>
+

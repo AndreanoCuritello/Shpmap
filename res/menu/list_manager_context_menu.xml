@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+      <item
+        android:id="@+id/list_sort_name"
+        android:showAsAction="ifRoom|withText"
+        android:title="название"
+        android:visible="true"/>
+    <item
+        android:id="@+id/list_sort_id"
+        android:showAsAction="ifRoom|withText"
+        android:title="порядок"
+        android:visible="true"/>
+    <item
+        android:id="@+id/list_sort_count"
+        android:showAsAction="ifRoom|withText"
+        android:title="количество"
+        android:visible="true"/>
+</menu>
